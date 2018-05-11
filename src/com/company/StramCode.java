@@ -29,7 +29,7 @@ public class StramCode {
     Supplier<PersionEntity> persionEntitySupplier = PersionEntity::new;
     persionEntitySupplier.get();
   */
- /* Consumer<PersionEntity> persionEntityConsumer = persionEntity -> System.out.println
+ /* Customer<PersionEntity> persionEntityConsumer = persionEntity -> System.out.println
         (persionEntity.getFirstName());
     persionEntityConsumer.accept(new PersionEntity("100","waseem"));
 */
