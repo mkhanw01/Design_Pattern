@@ -1,0 +1,9 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(šÎ‘—üÿÿÿÿ8¹ÅËû©,
+`squid:UnusedPrivateMethod"1Remove this unused private "minimumTotal" method.(Ô®ûƒûÿÿÿÿ8œı…ü©,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(€–£Ì8£³ü©,
+Ysquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ºîĞq8ËíÕû©,
+]squid:S1854"<Remove this useless assignment to local variable "nextSize".(Ó·ƒíúÿÿÿÿ8ñğªü©,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Š´Ñí8œı…ü©,
+Nsquid:S1481"-Remove this unused "nextSize" local variable.(Ó·ƒíúÿÿÿÿ8ñğªü©,

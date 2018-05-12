@@ -1,0 +1,11 @@
+
+Qsquid:S1854"5Remove this useless assignment to local variable "m".(Ì€™8•˜ıà¤,
+Vsquid:S1854"5Remove this useless assignment to local variable "a".(…¸ï×øÿÿÿÿ8•˜ıà¤,
+Gsquid:S1481"&Remove this unused "a" local variable.(…¸ï×øÿÿÿÿ8•˜ıà¤,
+Vsquid:S1854"5Remove this useless assignment to local variable "s".(Õ½®°üÿÿÿÿ8•˜ıà¤,
+Bsquid:S1481"&Remove this unused "m" local variable.(Ì€™8•˜ıà¤,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢õª øÿÿÿÿ8•˜ıà¤,
+Gsquid:S1481"&Remove this unused "s" local variable.(Õ½®°üÿÿÿÿ8•˜ıà¤,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(±¨8•˜ıà¤,

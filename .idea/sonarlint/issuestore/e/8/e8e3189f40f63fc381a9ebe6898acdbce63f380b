@@ -1,0 +1,5 @@
+
+fsquid:HiddenFieldCheck":Rename "tracks" which hides the field declared at line 16.(ô†œƒùÿÿÿÿ8‡ó¼­,
+Msquid:S1481",Remove this unused "artists" local variable.(ÿªª‡ÿÿÿÿÿ8‡ó¼­,
+\squid:S1854";Remove this useless assignment to local variable "artists".(ÿªª‡ÿÿÿÿÿ8‡ó¼­,
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Ùó†¢úÿÿÿÿ8‡ó¼­,

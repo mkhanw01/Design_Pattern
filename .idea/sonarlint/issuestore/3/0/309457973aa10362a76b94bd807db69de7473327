@@ -1,0 +1,7 @@
+
+Xsquid:UnusedPrivateMethod".Remove this unused private "funString" method.(îÙÔ€8áÇ£­,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(î˜Ì8áÇ£­,
+Isquid:S2201"-The return value of "substring" must be used.(ğÙ¡µ8áÇ£­,
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Öå×Úüÿÿÿÿ8áÇ£­,
+Lsquid:S2201"0The return value of "replaceFirst" must be used.(€—ò 8áÇ£­,

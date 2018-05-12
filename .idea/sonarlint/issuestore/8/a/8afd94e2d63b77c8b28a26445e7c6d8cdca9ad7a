@@ -1,0 +1,5 @@
+
+Usquid:S2864"4Iterate over the "entrySet" instead of the "keySet".(â€¥ıÿÿÿÿ8ä›õõ¤,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(íÆŞ8ä›õõ¤,
+Ysquid:S1197"8Move the array designator from the variable to the type.(û„Ëùÿÿÿÿ8ä›õõ¤,
