@@ -67,9 +67,9 @@ public class ClockWiseBoundaryOrderTraverse {
    *
    * @param node reference of Node.
    */
-  private void printBoundaryOrder(Node node) {
+  protected void printBoundaryOrder(Node node) {
     if (Node.isNodeExist(node)) {
-      System.out.println("this is root node data " + node.data);
+      System.out.print(node.data+ " ");
       printLeftTopBottomOrder(node.left);
       printLeaves(node.left);
       printLeaves(node.right);
