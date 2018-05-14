@@ -5,6 +5,11 @@ import java.util.List;
 
 /**
  * @author waseem.khan since 5/12/18.
+ *
+ * To traverse in  boundary ordertraversal fashion , and all boundary data
+ * except non leaves store in list.
+ * While traverse of leave node check that data is already stored in list if available then
+ * ignore otherwise logged that data i.e our nonboundary traversal data .
  */
 public class ClockWiseNonBoundaryOrderTraversal {
   private static ClockWiseBoundaryOrderTraverse orderTraverse = new ClockWiseBoundaryOrderTraverse();
@@ -57,7 +62,6 @@ public class ClockWiseNonBoundaryOrderTraversal {
       bottomToTopTraverse(node.right);
       traverseNonLeaves(node.left);
       traverseNonLeaves(node.right);
-
     }
   }
 
