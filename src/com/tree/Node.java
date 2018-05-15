@@ -26,6 +26,14 @@ public class Node {
     }
   }
 
+  protected static void postOrder(Node node) {
+    if(isNodeExist(node)) {
+      postOrder(node.left);
+      postOrder(node.right);
+      System.out.print(node.data +" ");
+    }
+  }
+
   protected static Node insertNode(Integer data) {
     return new Node(data);
   }
