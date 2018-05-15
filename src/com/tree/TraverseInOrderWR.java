@@ -11,7 +11,7 @@ import java.util.Stack;
  * current node as node.right
  * 5) go to step 3.
  */
-public class TraverseInorderWR {
+public class TraverseInOrderWR {
 
   private final ThreadLocal<Stack<Node>> stack = ThreadLocal.withInitial(() -> new Stack<>());
   private Node root;
@@ -44,7 +44,7 @@ public class TraverseInorderWR {
   }
 
   public static void main(String[] args) {
-    TraverseInorderWR inorderWR = new TraverseInorderWR();
+    TraverseInOrderWR inorderWR = new TraverseInOrderWR();
     inorderWR.root = Node.insertNode(20);
     inorderWR.root.left = Node.insertNode(30);
     inorderWR.root.left.left = Node.insertNode(40);

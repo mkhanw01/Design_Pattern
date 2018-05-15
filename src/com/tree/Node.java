@@ -34,6 +34,14 @@ public class Node {
     }
   }
 
+  protected static void preOrder(Node node) {
+    if(isNodeExist(node)) {
+      System.out.print(node.data + " ");
+      preOrder(node.left);
+      preOrder(node.right);
+    }
+  }
+
   protected static Node insertNode(Integer data) {
     return new Node(data);
   }
