@@ -1,8 +1,10 @@
 package com.tranning;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import static java.sql.DriverManager.getConnection;
 
 /**
  * @author waseem.khan since 5/17/18.
@@ -15,17 +17,24 @@ public class RelationalDataBaseConnectionApp {
   private static final String CLASS_NAME = "org.postgresql.Driver";
 
 
-  public Connection connect() throws SQLException {
+  public void connect() throws SQLException {
     Connection conn = null;
     try {
       Class.forName(CLASS_NAME);
-      conn = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
+      conn = getConnection(URL, USER_NAME, PASSWORD);
       System.out.println("Connected to the PostgreSQL server successfully.");
+      try (ResultSet resultSet = conn.prepareStatement("select * from department limit 5")
+          .executeQuery()) {
+        System.out.println(resultSet.getFetchSize());
+
+      }
     } catch (SQLException | ClassNotFoundException e) {
       System.out.println(e.getMessage());
+    } finally {
+      conn.close();
     }
-    return conn;
   }
+
 
   public static void main(String[] args) throws SQLException {
     RelationalDataBaseConnectionApp application = new RelationalDataBaseConnectionApp();

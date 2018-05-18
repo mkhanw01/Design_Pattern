@@ -42,6 +42,18 @@ public class Node {
     }
   }
 
+  protected static int getHieght(Node node) {
+    if (!isNodeExist(node)) {
+      return 0;
+    } else {
+      int leftHieght = getHieght(node.left);
+      int rightHieght = getHieght(node.right);
+      if (leftHieght > rightHieght)
+        return leftHieght + 1;
+      else
+        return rightHieght + 1;
+    }
+  }
   protected static Node insertNode(Integer data) {
     return new Node(data);
   }
