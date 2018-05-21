@@ -13,7 +13,6 @@ public class StramCode {
   public static final String NATARAJ = "nataraj";
   public static final String MANISHA = "manisha";
   public static final String JUGAL = "jugal";
-
   public static void main(String[] a) {
   /*  Random random = new Random();
     List<Integer> integerList = Arrays.asList(1, 3, 2, 4, 3, 2, 4, 10, -3);
